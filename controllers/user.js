@@ -1,5 +1,4 @@
 const User = require("../models/user");
-const createError = require("http-errors");
 
 exports.addUser = async (req, res, next) => {
   try {
