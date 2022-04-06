@@ -31,7 +31,6 @@ touch .env
 - [Authorization](#authorization)
 - [Documentation](#documentation)
 - [Linting](#linting)
-- [Containerization Technology](#docker)
 
 ## 🪶 Features
 
@@ -44,6 +43,7 @@ touch .env
 - **CORS**: Cross-Origin Resource-Sharing enabled using [cors](https://github.com/expressjs/cors)
 - **Git hooks**: with [husky](https://github.com/typicode/husky)
 - **Linting**: with [ESLint](https://eslint.org) and [Prettier](https://prettier.io)
+- **Docker**: containerization technology
 
 ## 🪟 Commands
 
