@@ -31,6 +31,7 @@ touch .env
 - [Authorization](#authorization)
 - [Documentation](#documentation)
 - [Linting](#linting)
+- [Containerization Technology](#docker)
 
 ## 🪶 Features
 
@@ -58,6 +59,21 @@ Running in production:
 yarn start
 ```
 
+Running with docker:
+
+## Build image using command:
+```
+   docker build -t image-name .
+    
+```
+
+## Run container with build image:
+```
+   docker run -p 8081:8081 --name container-name image-name
+    
+```
+
+## If you want to persist data you can map volumes
 
 Linting:
 
