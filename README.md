@@ -186,9 +186,6 @@ The permissions are role-based. You can view the permissions/rights of each role
 
 If the user making the request does not have the required permissions to access this route, a Forbidden (403) error is thrown.
 
-## 📄 Documentation
-
-[Click here](https://documenter.getpostman.com/view/15600448/UVe9RUeh)
 
 ## ☑️ Linting
 
