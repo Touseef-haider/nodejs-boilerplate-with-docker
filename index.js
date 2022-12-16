@@ -18,6 +18,7 @@ app.use(helmet());
 app.use(morgan("dev"));
 app.use(cors());
 
+// apis
 app.use("/api", routes);
 
 app.use((req, res, next) => {
